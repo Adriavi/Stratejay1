@@ -1,6 +1,6 @@
 .container{
     background-color: #3F3D56;
-    height: 400px;
+    height: 600px;
     width: 414px;
     transition: 200ms;
     transition-delay: 100ms;
@@ -40,6 +40,7 @@
     
 }
 .bkgdyellow{
+    
    align-items: flex-end;
     margin: 180px;
     height: 15px;
@@ -49,4 +50,18 @@
 }
 .div4{
     color: aqua;
+}
+
+.letsbegin{
+    background-color: lightblue;
+    margin: 110px;
+   
+    background-color: #3F3D56;
+    color: aliceblue;
+  
+  
+  
+}
+.progressdots{
+    margin: 50px;
 }
