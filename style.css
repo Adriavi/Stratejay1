@@ -1,0 +1,52 @@
+.container{
+    background-color: #3F3D56;
+    height: 400px;
+    width: 414px;
+    transition: 200ms;
+    transition-delay: 100ms;
+}
+.title{
+    position: relative;
+    background-color: #3F3D56;
+    color: aliceblue;
+    height: 50px;
+    width: 414px;
+    text-align: center;
+  
+ 
+}
+.stfont{
+    background-color: #3F3D56;
+
+   
+  
+    width: 414px;
+}
+.logo{
+    position: relative;
+    height: 250px;
+    width: 180px;
+    padding: 0;
+    margin: 100px;
+    animation: growing 2s ease-in-out infinite;
+}
+@keyframes growing {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(20px);
+    }
+    
+}
+.bkgdyellow{
+   align-items: flex-end;
+    margin: 180px;
+    height: 15px;
+    width: 20%;float: right;
+   
+    margin-top: 5px
+}
+.div4{
+    color: aqua;
+}
