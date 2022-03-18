@@ -66,11 +66,76 @@
     width: 414px;
     background-color: #9996b9;
  ;
-   
-  
-  
-  
 }
+/*-------------------- BUTTON STYLES ---------------*/
+.dButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px 20px;
+    
+    position: absolute;
+    width: 160px;
+    height: 45px;
+    left: 115px;
+    top: 718px;
+    
+    /* Dark Navy */
+    
+    background: #3F3D56;
+    border-radius: 10px;
+
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+
+
+/* White */
+
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
+  }
+  
+  .fButton{
+    position: static;
+width: 97px;
+height: 25px;
+left: 31.5px;
+top: 10px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+
+
+/* White */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
+}
+/*-------------------- BUTTON STYLES END---------------*/
+
 .progressdots{
     margin: 50px;
 }
