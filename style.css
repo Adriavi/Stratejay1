@@ -61,11 +61,11 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
     background-color: aliceblue;
     display: flow-root;
-    margin: 10px;
-    height: 300px;
-    width: 414px;
+    margin: 1px;
+    height: 150px;
+    width: 325px;
     background-color: #9996b9;
- ;
+ 
 }
 /*-------------------- BUTTON STYLES ---------------*/
 .dButton {
@@ -139,11 +139,20 @@ margin: 0px 10px;
 .progressdots{
     margin: 50px;
 }
-.container1{
-    background-color: #FAD02C;
-    width: fit-content;
-}
+
 
 .btn btn-outline-primary{
     display: flow-root;
+}
+.yButton{
+    display: flex;
+    flex-direction: row;
+    color: #FFFFFF;
+    position: absolute;
+    height: 10px;
+    left: 10px;
+    right: 10px;
+    font-size: medium;
+   
+   
 }
