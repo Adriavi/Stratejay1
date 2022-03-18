@@ -134,6 +134,32 @@ order: 0;
 flex-grow: 0;
 margin: 0px 10px;
 }
+.dropdown{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px 20px;
+    
+    position: absolute;
+    width: 160px;
+    height: 45px;
+    left: 115px;
+    top: 718px;
+    
+    /* Dark Navy */
+    
+    background: #3F3D56;
+    border-radius: 10px;
+
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 25px; 
+}
+
 /*-------------------- BUTTON STYLES END---------------*/
 
 .progressdots{
